@@ -64,9 +64,6 @@ body
 }
 
 
-
-
-
 .header__inner{
    display: -webkit-box;
    display: -ms-flexbox;
@@ -130,7 +127,7 @@ body
    margin: 0 auto;
    margin-bottom: 136px;
 }
-.section__hero__inner{
+.hero__inner__box{
    background-image: url(/images/coffee.svg); 
    background-repeat: no-repeat;
    background-size: cover;
@@ -159,7 +156,7 @@ body
    height: 78px;
    margin-bottom: 56px;
 }
-.hero__inner__text{
+.hero__text{
    font-family: Barlow;
    font-style: normal;
    font-weight: normal;
@@ -196,7 +193,7 @@ body
 
 
 
-.our__collection__box{
+.our__collection{
    padding-top: 110px;
    padding-right: 44px;
    padding-left: 44px;
@@ -216,6 +213,9 @@ body
            justify-content: space-evenly;
    padding: 0;
 }
+.our__collection__item{
+   text-align: center;
+}
 .our__collection__item--last{
    padding-top: 20px;
 }
@@ -229,7 +229,7 @@ body
 .our__collection__img--red{
    width: 234.82px;
    height: 177.48px;
-   margin-bottom: 69px;
+   margin-bottom: 68px;
 }
 .our__collection__title{
    font-family: Fraunces;
@@ -266,6 +266,7 @@ body
    padding-right: 85px;
    padding-left: 85px;
    border-radius: 10px;
+   text-align: center;
 }
 .advantage__title{
    font-family: Fraunces;
@@ -318,8 +319,7 @@ body
    margin-left: 30px;
 }
 .advantage__item__img{
-   display: block;
-   margin: 0 auto;
+
    padding-bottom: 56px;
 }
 .advantage__item__img--last{
@@ -335,11 +335,7 @@ body
    color: #FEFCF7; 
    margin-top: 0;
 }
-.advantage__item_text__box{
-   width: 255px;
-   height: 78px;
-   margin: 0 auto;
-}
+
 .advantage__item__text{
    font-family: Barlow;
    font-style: normal;
@@ -353,11 +349,12 @@ body
 /* ==================================================================================== */
 
 
-.instrustions{
-   padding-left: 44px;
+.instructions{
+   padding-right: 44px;
+   padding-left: 80px;
    margin-bottom: 200px;
 }
-.instrustions__title{
+.instructions__title{
    font-family: Fraunces;
    font-style: normal;
    font-weight: 900;
@@ -366,7 +363,7 @@ body
    color: #83888F;
    margin-bottom: 80px;
 }
-.instrustions__line{
+.instructions__line{
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
@@ -389,7 +386,7 @@ body
    border: 2px solid #0E8784;;
    border-radius: 50%;
 }
-.instrustions__list{
+.instructions__list{
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
@@ -397,14 +394,14 @@ body
    padding: 0;
    margin-bottom: 64px;
 }
-.instrustions__item{
+.instructions__item{
    width: 285px;
 }
-.instrustions__item--middle{
+.instructions__item--middle{
    margin-right: 95px;
    margin-left: 95px;
 }
-.instructions__item__number{
+.instructions__number{
    font-family: Fraunces;
    font-style: normal;
    font-weight: 900;
@@ -415,7 +412,7 @@ body
 .instructions__subject__box{
    width: 255px;
 }
-.instrustions____item__subject{
+.instructions__subject{
    font-family: Fraunces;
    font-style: normal;
    font-weight: 900;
@@ -423,11 +420,11 @@ body
    line-height: 36px;
    color: #333D4B;
 }
-.instrustions__text__box{
+.instructions__text__box{
    width: 285px;
    height: 130px;
 }
-.instrustions__item__text{
+.instructions__text{
    font-family: Barlow;
    font-style: normal;
    font-weight: normal;
@@ -459,7 +456,7 @@ body
 }
 /* ======================================================================== */
 
-.site__footer{
+.footer__site{
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
@@ -501,16 +498,16 @@ body
    -o-transition: 0.3s;
    transition: 0.3s;
 }
-.footer__website__list{
+.website{
    list-style: none;
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
    margin: 0;
-   margin-left: 369px;
+   margin-left: 367px;
    padding: 0;
 }
-.footer__website__item--middle{
+.website__item--middle{
    margin-right: 24px;
    margin-left: 24px;
 }
